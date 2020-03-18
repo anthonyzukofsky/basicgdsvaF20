@@ -17,11 +17,15 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.navigation {
-  margin: 0 auto;
-  padding-top: 64px;
-  max-width: 640px;
-  width: 94%;
+.navigation{
+    width:100%;
+    background:#C0C0C0;
+    border:1px;
+    border-color:gray;
+    border-style:solid;
+    text-decoration:none;
+    font-family:Arial;
+    top:0px;
 }
 
 .information {
