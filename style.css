@@ -18,6 +18,7 @@ body {
 }
 
 .navigation{
+    position:absolute;
     width:100%;
     background:#C0C0C0;
     border:1px;
