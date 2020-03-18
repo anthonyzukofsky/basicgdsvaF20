@@ -20,21 +20,17 @@ body {
 .navigation{
     position:absolute;
     width:100%;
-    background:#C0C0C0;
-    border:1px;
-    border-color:gray;
-    border-style:solid;
-    text-decoration:none;
+    background:#000000;
+    text-decoration: none;
     font-family:Arial;
     top:0px;
 }
 
-.information {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #red;
-  text-align: left;
+.information{
+    position:absolute;
+    width:100%;
+    background:#000000;
+    text-decoration: none;
+    font-family:Arial;
+    bottom:0px;
 }
