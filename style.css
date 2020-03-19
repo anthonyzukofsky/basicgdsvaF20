@@ -1,11 +1,11 @@
-.floatleft {
+#green floatleft {
 float: left;
 }
 
-.floatright {
+#blue floatright {
 float: right;
 }
 
-.clearfloat {
+#clearfloat {
 clear: both;
 }
