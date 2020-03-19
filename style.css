@@ -1,11 +1,21 @@
-#green floatleft {
-float: left;
+body {
+  background-color: gray;
 }
 
-#blue floatright {
-float: right;
+.container {
+  position: relative;
 }
 
-#clearfloat {
-clear: both;
+.Navigation {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
 }
