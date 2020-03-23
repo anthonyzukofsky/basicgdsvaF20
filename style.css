@@ -1,25 +1,27 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    font-size: 24px;
-    font-family: "Helvetica", Arial, sans-serif;
-    font-weight: normal;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: normal;
 }
 
-html, body {
-    height: 100%;
-    background-color: gray;
+.course-info {
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+  height: 100%;
+  padding: 2%;
 }
 
-#course-info {
-    height: 100%;
-    border-collapse: collapse;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30%;
-    height: 100%;
-    padding: 2%;
+p,
+p a {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 1.3vw;
+	line-height: 1.3;
+	font-weight: normal;
 }
