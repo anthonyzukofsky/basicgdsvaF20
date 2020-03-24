@@ -26,16 +26,14 @@
 	text-decoration: none;
 }
 
-p,
-p a {
+p {
 	font-family: "Helvetica", Arial, sans-serif;
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: normal;
 }
 
-h3,
-h3 a {
+h3 {
 	font-family: "Helvetica", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 18px;
@@ -48,9 +46,22 @@ img {
     width: auto;
     height: auto;
 }
-.link { color: #000000; }
 
-.link:hover { color: #0000ff; }
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
 
 .page-content {
 	width: 70%;
