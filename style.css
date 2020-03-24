@@ -48,6 +48,9 @@ img {
     width: auto;
     height: auto;
 }
+.link { color: #000000; }
+
+.link:hover { color: #0000ff; }
 
 .page-content {
 	width: 70%;
